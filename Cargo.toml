@@ -1,0 +1,15 @@
+[package]
+name = "hcl"
+version = "0.0.1"
+authors = ["Markus Felten <markus.felten@gmx.de>"]
+
+[dependencies]
+nom = "^5.0.1"
+
+[lib]
+name="hcl"
+
+[[bin]]
+name = "hcl"
+path = "main.rs"
+
